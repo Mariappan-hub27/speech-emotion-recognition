@@ -10,11 +10,11 @@ from transformers import (
 )
 
 processor = AutoProcessor.from_pretrained(
-    "model"
+    "Mariappan-27/ser-wav2vec2-model"
 )
 
 model = AutoModelForAudioClassification.from_pretrained(
-    "model"
+    "Mariappan-27/ser-wav2vec2-model"
 )
 
 id2label = {
