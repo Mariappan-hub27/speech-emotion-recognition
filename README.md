@@ -32,6 +32,13 @@ Fine-tuned Wav2Vec2 model trained on:
 - TESS
 - CREMA-D
 
+ ## Results
+
+- Model: Wav2Vec2ForSequenceClassification
+- Classes: 7 emotions
+- Deployment: Streamlit Cloud
+- Inference Time: < 2 seconds
+
 ## Live Demo
 
 [https://speech-emotion-recognition-q9yq2xjjzr4mhfu4npmnyh.streamlit.app/]
