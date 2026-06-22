@@ -5,11 +5,11 @@ import torch
 import tempfile
 
 from transformers import (
-    AutoProcessor,
+    Wav2Vec2FeatureExtractor,
     AutoModelForAudioClassification
 )
 
-processor = AutoProcessor.from_pretrained(
+processor = Wav2Vec2FeatureExtractor.from_pretrained(
     "Mariappan-27/ser-wav2vec2-model"
 )
 
